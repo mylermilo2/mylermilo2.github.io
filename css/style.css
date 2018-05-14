@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900,100,200);
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 body{
   font-family: 'avenir', sans-serif;
@@ -127,7 +128,7 @@ ul.menu-fullscreen{
   top: 50%;
   position: absolute;
   height: 280px;
-  margin-top: -140px;
+  margin-top: -140px;n
 }
 
 ul.menu-fullscreen li{
@@ -220,16 +221,15 @@ ul.social-icon a:hover{
   right: 5%;
   top: 30px;
   z-index: 99999;
-  padding:20px;
-  background:black;
+  padding:0px;
   cursor:pointer;
 }
 
 
 .menu-index i{
   float:right;
-  font-size:18px;
-  color:white;
+  font-size:16px;
+  color:black;
   padding-right:0px !important;
 }
 
@@ -263,13 +263,13 @@ header a{
 }
 
 ul.header-nav{
-  width:60%;
-  float:left;
+  width:10%;
+  float:right;
 }
 
 header .logo > a{
-  font-size:23px;
-  font-weight:800;
+  font-size:26px;
+  font-weight:700;
   float:left;
   line-height:80px;
   padding-right:40px;
@@ -286,18 +286,19 @@ header li{
 }
 
 header li > a{
-  font-size:13px;
-  color:#c3c3c3;
-  padding-right:25px;
-  padding-left:25px;
-  font-weight:800;
+  font-size:11px;
+  color:#000000;
+  padding-right:10px;
+  padding-left:10px;
+  font-weight:200;
   line-height:80px;
   display:inline-block;  
   border-bottom:0;
+  
 }
 
 header li > a:hover{
-  color:#000000;
+  color:#c3c3c3;
 }
 
 header li > a #active{
@@ -340,24 +341,32 @@ CONTENT
 }
 
 .one-column{
-  width:40%;
+
   position:relative;
-  float:left;
+ 
+  margin-left: auto;
+    margin-right: auto;
+}
 }
 
 .two-column{
-  width:60%;
-  position:relative;
-  float:left;
+  
   color:black;
+  margin-left: auto;
+    margin-right: auto;
+}
 }
 
 .one-column p{
   width:70% !important;
+
 }
 
 .two-column p{
   width:100% !important;
+
+  
+  
 }
 
 .clear{
@@ -374,26 +383,47 @@ CONTENT
 .content .text-intro{
   width: 1140px;
   margin-top: 150px;
-  margin: 150px auto 0;
+  margin: 110px auto 0;
 }
 
 .content .text-intro h1{
-  font-size:43px;
+  font-size:25px;
   width:40%;
-  color:#000000;
-  font-weight:700;
+  color:#2a2a2a;
+  font-weight:600;
   line-height:70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content .text-intro p{
-  font-size:13px;
-  color:#000000;
+  font-size:12px;
+  color:#7e7e7e;
   margin-top:30px;
-  font-weight:400;
+  font-weight:100;
   line-height:22px;
   letter-spacing:1px;
   width:40%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
+
+.content .text-intro .hi {font-size:13px;
+  font-weight:600;
+  color:#3f3f3f; 
+ 
+
+}
+
+
+
+
+
+
+
 
         .typed-cursor{
             opacity: 1;
@@ -701,3 +731,13 @@ textarea{
 }
 
 textarea:focus{background:#f4f4f4; height:250px;}
+
+
+
+                .center {
+                 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
