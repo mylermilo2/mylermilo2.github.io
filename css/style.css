@@ -267,9 +267,9 @@ ul.header-nav{
 
 header .logo > a{
   font-size:26px;
-  font-weight:700;
+  font-weight:600;
   float:left;
-  line-height:80px;
+  line-height:90px;
   padding-right:40px;
   border-bottom: 1px solid #f1f1f1;
 }
@@ -379,17 +379,17 @@ CONTENT
 
 
 .content .text-intro{
-  width: 1140px;
+  width: 740px;
   margin-top: 150px;
   margin: 110px auto 0;
 }
 
 .content .text-intro h1{
-  font-size:25px;
+  font-size:22px;
   width:40%;
   color:#2a2a2a;
   font-weight:600;
-  line-height:70px;
+  line-height:50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -599,10 +599,10 @@ FOOTER
 #footer-box{height:150px; margin-top:75px;}
 
 footer{
-  background: #f1f1f1;
+  background: white;
   width:100%;
-  margin-top:150px;
-  height:300px;
+  margin-top:50px;
+  height:100px;
   overflow:hidden;
   position:relative;
   z-index:10;
@@ -617,7 +617,7 @@ footer{
 #footer-left{text-align:left;}
 
 .footer-margin .copyright{
-  color: #686868;
+  color: black;
   letter-spacing: 1px;
   font-size: 12px;
   width: 100%;
