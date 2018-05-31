@@ -331,7 +331,7 @@
   #footer-left{text-align:center;}
   
   .content .text-intro h1{
-    font-size:33px; 
+    font-size:20px; 
     line-height:50px;
   }
 
@@ -352,7 +352,17 @@
   }
 
   .grid-hover, li.grid-item, li.grid-item img{
-    width:280px;
+    width:700px;
   }
 
+  .footer-margin .copyright {
+
+   font-size:10px;
+  }
+
+
+  
+
 }
+
+
